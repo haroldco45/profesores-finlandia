@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Así trabajan los profesores en Finlandia | Comparativo con Colombia</title>
+<meta name="description" content="Cómo funciona el sistema de profesores de la escuela pública en Finlandia, el aprendizaje por fenómenos y cómo se compara con Colombia.">
+<meta name="theme-color" content="#003580">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:url" content="https://haroldco45.github.io/profesores-finlandia/">
+<meta property="og:title" content="Así trabajan los profesores en Finlandia, y lo que Colombia puede aprender">
+<meta property="og:description" content="Maestría obligatoria, cero inspectores y aprendizaje por fenómenos, con un comparativo punto por punto con Colombia.">
+<meta property="og:image" content="https://haroldco45.github.io/profesores-finlandia/og-image.jpg">
+<meta property="og:image:secure_url" content="https://haroldco45.github.io/profesores-finlandia/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Profesores en Finlandia comparados con Colombia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://haroldco45.github.io/profesores-finlandia/og-image.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍎</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F6F9; --surface:#FFFFFF; --ink:#111D33; --muted:#4F5B70; --line:#D6DCE6;
+  --ai:#003580; --ai-ink:#FFFFFF; --sun:#F5B301; --sun-ink:#1B1400; --soft:#E3ECF7;
+  --wa:#127C44;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C1424; --surface:#131E33; --ink:#E9EEF7; --muted:#A4B0C4; --line:#26344F;
+    --ai:#8DB4F0; --ai-ink:#0A1630; --soft:#17233B; --wa:#27A765;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C1424; --surface:#131E33; --ink:#E9EEF7; --muted:#A4B0C4; --line:#26344F;
+  --ai:#8DB4F0; --ai-ink:#0A1630; --soft:#17233B; --wa:#27A765;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.0625rem;line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--ai)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Bricolage Grotesque","Figtree",system-ui,sans-serif;line-height:1.05;margin:0;letter-spacing:-0.02em}
+h2{font-size:clamp(1.8rem,5vw,2.6rem);font-weight:800;margin-bottom:.4em}
+.lede{color:var(--muted);max-width:60ch;margin:0 0 1.6rem}
+section{padding:64px 0}
+
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:center;padding:16px 0;gap:12px}
+.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1rem}
+.brand small{display:block;font-family:"Figtree",sans-serif;font-weight:500;font-size:.82rem;color:var(--muted)}
+.mini{font-weight:600;font-size:.92rem;text-decoration:none;border:1.5px solid var(--line);border-radius:999px;padding:9px 14px;color:var(--ink);white-space:nowrap}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 22px;border-radius:14px;font:700 1rem/1 "Figtree",sans-serif;text-decoration:none;border:0;cursor:pointer}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-main{background:var(--ai);color:var(--ai-ink)}
+.btn-line{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-sun{background:var(--sun);color:var(--sun-ink)}
+
+/* hero */
+.hero{padding:28px 0 56px}
+.hero-grid{display:grid;gap:36px;align-items:center}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.25fr .75fr}}
+.model{font-weight:600;color:var(--ai);margin-bottom:14px}
+.hero h1{font-size:clamp(2.3rem,7.4vw,4.2rem);font-weight:800;margin-bottom:.35em}
+.sub{font-size:1.14rem;color:var(--muted);max-width:52ch;margin:0 0 26px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.word{justify-self:center;display:grid;gap:10px}
+.word .v{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(3rem,13vw,6.2rem);line-height:.9;letter-spacing:-0.04em;color:var(--ai);word-break:keep-all}
+.word .r{border-left:3px solid var(--sun);padding-left:10px;font-size:.95rem;color:var(--muted)}
+.word .r b{color:var(--ink)}
+@media(max-width:899px){.word{order:-1;justify-self:start}}
+
+/* steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:14px;counter-reset:s}
+@media(min-width:760px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){.steps{grid-template-columns:repeat(4,1fr)}}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--soft);color:var(--ai);font:800 1.05rem/1 "Bricolage Grotesque",sans-serif;margin-bottom:12px}
+.steps h3{font-family:"Figtree",sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:0;margin-bottom:6px}
+.steps p{margin:0;color:var(--muted);font-size:.96rem}
+
+/* cycle (método) */
+.cycle{background:var(--ai);color:var(--ai-ink);border-radius:26px;padding:30px 22px;display:grid;gap:28px}
+@media(min-width:900px){.cycle{grid-template-columns:1fr 1.1fr;padding:44px;align-items:center}}
+.cycle h2{color:inherit}
+.cycle .lede{color:inherit;opacity:.82}
+.ring{position:relative;width:min(100%,340px);aspect-ratio:1;margin:0 auto}
+.ring::before{content:"";position:absolute;inset:44px;border:2px dashed currentColor;opacity:.4;border-radius:50%}
+.ring .center{position:absolute;inset:0;display:grid;place-items:center;text-align:center;pointer-events:none}
+.ring .center span{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.05rem;line-height:1.15;max-width:9ch;opacity:.9}
+.node{position:absolute;width:118px;min-height:62px;padding:8px 6px;border-radius:14px;border:2px solid currentColor;background:var(--ai);color:inherit;font:700 .9rem/1.15 "Figtree",sans-serif;cursor:pointer;transform:translate(-50%,-50%)}
+.node small{display:block;font-weight:600;font-size:.72rem;opacity:.75;margin-bottom:3px}
+.node[aria-pressed="true"]{background:var(--sun);color:var(--sun-ink);border-color:var(--sun)}
+.n1{left:50%;top:13%}.n2{left:84%;top:50%}.n3{left:50%;top:87%}.n4{left:16%;top:50%}
+.panel{background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.22);border-radius:18px;padding:22px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .panel{background:rgba(0,0,0,.06);border-color:rgba(0,0,0,.2)}}
+:root[data-theme="dark"] .panel{background:rgba(0,0,0,.06);border-color:rgba(0,0,0,.2)}
+.panel h3{font-size:1.5rem;font-weight:800;margin-bottom:8px}
+.panel p{margin:0 0 12px}
+.panel p:last-child{margin:0}
+.panel .tip{font-size:.92rem;opacity:.85}
+.nav{display:flex;gap:10px;margin-top:16px}
+.nav button{min-height:44px;padding:0 16px;border-radius:12px;border:1.5px solid currentColor;background:transparent;color:inherit;font:700 .92rem/1 "Figtree",sans-serif;cursor:pointer}
+.origin{margin:22px 0 0;font-size:.92rem;opacity:.8;max-width:62ch}
+
+/* facts grid */
+.facts{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:760px){.facts{grid-template-columns:repeat(2,1fr)}}
+.fact{display:grid;grid-template-columns:1fr;gap:6px 14px;align-items:start;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:16px}
+@media(min-width:560px){.fact{grid-template-columns:auto 1fr}}
+.fact .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.5rem;color:var(--ai);min-width:82px;line-height:1.1}
+.fact h3{font-size:1.1rem;font-weight:700;margin-bottom:4px;font-family:"Figtree",sans-serif;letter-spacing:0}
+.fact p{margin:0;color:var(--muted);font-size:.96rem}
+.small{font-size:.88rem;color:var(--muted);margin-top:16px;max-width:75ch}
+
+/* problems */
+.bar{margin:26px 0 10px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.bar h3{font-family:"Figtree",sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:0;margin-bottom:14px}
+.track{display:grid;grid-template-columns:4fr 1fr 5fr;height:18px;border-radius:9px;overflow:hidden;background:var(--soft)}
+.track i:nth-child(1){background:var(--muted)}
+.track i:nth-child(2){background:var(--ai)}
+.track i:nth-child(3){background:repeating-linear-gradient(90deg,var(--sun) 0 10px,transparent 10px 14px)}
+.legend{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px;font-size:.88rem;color:var(--muted)}
+.legend b{display:block;color:var(--ink);font-size:1.15rem;font-family:"Bricolage Grotesque",sans-serif}
+
+/* compare */
+.cmp-head{display:none}
+@media(min-width:760px){.cmp-head{display:grid;grid-template-columns:.8fr 1fr 1fr;gap:18px;padding:0 20px 10px;font-weight:700;color:var(--muted);font-size:.92rem}}
+.cmp{display:grid;gap:12px}
+.row{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px;display:grid;gap:12px}
+@media(min-width:760px){.row{grid-template-columns:.8fr 1fr 1fr;gap:18px;align-items:start}}
+.row h3{font-family:"Figtree",sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:0}
+.cell{font-size:.96rem;color:var(--muted)}
+.cell b{display:block;color:var(--ink);font-weight:700;margin-bottom:2px}
+.cell .who{display:inline-block;font-size:.78rem;font-weight:700;padding:3px 9px;border-radius:999px;margin-bottom:6px}
+.jp .who{background:var(--soft);color:var(--ai)}
+.co .who{background:var(--sun);color:var(--sun-ink)}
+@media(min-width:760px){.cell .who{display:none}}
+
+/* adopt */
+.adopt{display:grid;gap:14px}
+@media(min-width:760px){.adopt{grid-template-columns:repeat(2,1fr)}}
+.adopt div{border-left:4px solid var(--sun);padding:4px 0 4px 16px}
+.adopt h3{font-family:"Figtree",sans-serif;font-size:1.08rem;font-weight:700;letter-spacing:0;margin-bottom:4px}
+.adopt p{margin:0;color:var(--muted);font-size:.96rem}
+.verdict{margin-top:30px;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(1.3rem,3.6vw,1.75rem);line-height:1.25;max-width:34ch}
+
+/* faq */
+details{border-bottom:1px solid var(--line);padding:4px 0}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;padding:16px 36px 16px 0;font-weight:700;font-size:1.06rem;position:relative;min-height:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";position:absolute;right:6px;top:50%;width:12px;height:12px;border-right:2.5px solid var(--ai);border-bottom:2.5px solid var(--ai);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+details p{margin:0 0 18px;color:var(--muted);max-width:68ch}
+
+/* contact */
+.contact{display:grid;gap:24px;align-items:center;background:var(--soft);border-radius:26px;padding:32px 22px}
+@media(min-width:900px){.contact{grid-template-columns:1.3fr 1fr;padding:44px}}
+.contact h2{margin-bottom:.3em}
+.contact p{margin:0;color:var(--muted)}
+.contact .actions{flex-direction:column}
+.contact .btn{width:100%}
+footer{padding:32px 0 110px;color:var(--muted);font-size:.86rem}
+footer p{margin:0 0 8px;max-width:80ch}
+@media(min-width:760px){footer{padding-bottom:40px}}
+
+/* sticky mobile bar */
+.stick{position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line);display:flex;gap:10px;align-items:center;z-index:5}
+.stick .p{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.1rem;line-height:1.1}
+.stick .p small{display:block;font-family:"Figtree",sans-serif;font-weight:500;font-size:.78rem;color:var(--muted)}
+.stick .btn{margin-left:auto;min-height:48px;padding:0 18px}
+@media(min-width:760px){.stick{display:none}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">Vibras Positivas HM<small>Educación que se entiende</small></div>
+    <a class="mini" href="#colombia">Ver comparativo</a>
+  </header>
+</div>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="model">La escuela pública en Finlandia</div>
+        <h1>Allá al profesor no lo vigilan. Le confían.</h1>
+        <p class="sub">En Finlandia ser maestro exige maestría universitaria, y a cambio el profesor decide cómo enseñar. No hay inspectores revisando sus clases ni pruebas nacionales cada año. El resultado es una de las profesiones más respetadas del país.</p>
+        <div class="actions">
+          <a class="btn btn-main" href="#metodo">Ver cómo funciona</a>
+          <a class="btn btn-line" href="#colombia">Comparar con Colombia</a>
+        </div>
+      </div>
+      <div class="word" aria-label="Luottamus: confianza en finlandés">
+        <div class="v" aria-hidden="true">luottamus</div>
+        <div class="r" aria-hidden="true"><b>luottamus</b>, en finlandés: confianza</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="carrera" style="padding-top:24px">
+  <div class="wrap">
+    <h2>Cómo se llega a ser profesor en Finlandia</h2>
+    <p class="lede">Los colegios públicos dependen de los municipios. Cada municipio, o el rector del colegio, escoge a sus profesores entre los que ya tienen el título. No hay un concurso nacional.</p>
+    <ol class="steps">
+      <li><h3>Pasar el filtro de entrada</h3><p>Para estudiar pedagogía de primaria hay examen y entrevista. Históricamente entra más o menos 1 de cada 10 aspirantes.</p></li>
+      <li><h3>Hacer la maestría</h3><p>Son 5 años de universidad hasta el título de maestría. El de secundaria estudia su materia y le suma un año de pedagogía.</p></li>
+      <li><h3>Practicar en un colegio de la universidad</h3><p>Cada facultad tiene colegios propios donde los estudiantes practican con profesores formadores, como en un hospital universitario.</p></li>
+      <li><h3>Aplicar a una plaza</h3><p>El profesor aplica a la vacante que publica el municipio. Lo entrevista el rector y, si lo escogen, queda con plaza permanente.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="metodo" style="padding-top:8px">
+  <div class="wrap">
+    <div class="cycle">
+      <div>
+        <h2>El método: aprender por fenómenos</h2>
+        <p class="lede">Desde 2016 todo colegio finlandés debe hacer, cada año, por lo menos un proyecto en el que varias materias estudian juntas un tema de la vida real. Toque cada paso para ver cómo se hace.</p>
+        <div class="ring" role="group" aria-label="Ciclo del aprendizaje por fenómenos">
+          <div class="center"><span>Mínimo un proyecto así cada año</span></div>
+          <button class="node n1" data-i="0" aria-pressed="true"><small>Paso 1</small>Escoger el fenómeno</button>
+          <button class="node n2" data-i="1" aria-pressed="false"><small>Paso 2</small>Preguntas de los alumnos</button>
+          <button class="node n3" data-i="2" aria-pressed="false"><small>Paso 3</small>Investigar entre materias</button>
+          <button class="node n4" data-i="3" aria-pressed="false"><small>Paso 4</small>Mostrar y evaluar</button>
+        </div>
+      </div>
+      <div>
+        <div class="panel" id="panel" aria-live="polite"></div>
+        <div class="nav">
+          <button id="prev" type="button">Paso anterior</button>
+          <button id="next" type="button">Siguiente paso</button>
+        </div>
+        <p class="origin">El currículo nacional de Finlandia solo fija los objetivos. Cada municipio y cada colegio arma su propio plan, y los profesores escogen los métodos y los libros. Por eso el aprendizaje por fenómenos se ve distinto en cada escuela.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dia">
+  <div class="wrap">
+    <h2>Cómo es el trabajo de un profesor finlandés</h2>
+    <p class="lede">Además de la libertad para enseñar, hay reglas que llaman la atención a cualquier colombiano.</p>
+    <div class="facts">
+      <div class="fact"><div class="big">Sin inspector</div><div><h3>Nadie revisa sus clases</h3><p>Finlandia eliminó la inspección escolar a comienzos de los años 90. La calidad se cuida con buena formación, no con control.</p></div></div>
+      <div class="fact"><div class="big">3 horas</div><div><h3>Planeación en equipo pagada</h3><p>Por la convención colectiva, los profesores tienen unas 3 horas a la semana, dentro de su trabajo, para planear juntos.</p></div></div>
+      <div class="fact"><div class="big">Maestro de apoyo</div><div><h3>Educación especial en cada colegio</h3><p>Hay profesores de educación especial que atienden desde temprano al niño que se atrasa, dentro de su mismo salón o en grupos pequeños.</p></div></div>
+      <div class="fact"><div class="big">Máximo 5</div><div><h3>Alumnos con apoyo por grupo</h3><p>Con la reforma de agosto de 2025, un grupo puede tener como máximo 5 estudiantes que necesitan apoyo especial.</p></div></div>
+      <div class="fact"><div class="big">Almuerzo</div><div><h3>Comida caliente gratis para todos</h3><p>Desde 1948 todos los alumnos reciben almuerzo gratis en el colegio. El profesor no tiene que preocuparse por niños con hambre.</p></div></div>
+      <div class="fact"><div class="big">Sin celular</div><div><h3>Teléfonos fuera de clase</h3><p>Desde agosto de 2025 una ley prohíbe usar el celular en clase, salvo que el profesor lo autorice para estudiar o por salud.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="problemas" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Lo que no funciona tan bien</h2>
+    <p class="lede">Finlandia fue la estrella de las pruebas PISA en los años 2000, pero sus resultados vienen bajando desde entonces. El país está reaccionando con cambios.</p>
+    <div class="bar">
+      <h3>Lo que cambió desde agosto de 2025 para frenar la caída:</h3>
+      <div class="legend" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px">
+        <div><b>Más clases</b>De matemáticas y lengua materna en primaria</div>
+        <div><b>Nuevo apoyo</b>Se eliminaron los 3 niveles de apoyo y se ayuda dentro del propio grupo</div>
+        <div><b>Sin celular</b>Ley que saca los teléfonos del salón de clase</div>
+      </div>
+    </div>
+    <p class="small">Otros problemas: los profesores se quejan de más carga y más estrés por grupos con necesidades distintas, y faltan profesores de educación especial. Además nacen menos niños, y en algunas regiones la cantidad de alumnos baja hasta un 40%, lo que obliga a cerrar o fusionar colegios.</p>
+  </div>
+</section>
+
+<section id="colombia">
+  <div class="wrap">
+    <h2>Finlandia y Colombia, lado a lado</h2>
+    <p class="lede">Colombia tiene piezas parecidas, pero funcionan distinto. Este es el comparativo punto por punto.</p>
+    <div class="cmp-head" aria-hidden="true"><span>Tema</span><span>Finlandia</span><span>Colombia</span></div>
+    <div class="cmp">
+      <div class="row">
+        <h3>Qué estudio se exige</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>Maestría</b>Cinco años de universidad, con práctica en colegios de la universidad.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Pregrado o normalista</b>Licenciatura, normalista superior, o profesional de otra carrera con estudios de pedagogía.</div>
+      </div>
+      <div class="row">
+        <h3>Quién contrata</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>El municipio y el rector</b>Cada colegio escoge a sus profesores con entrevista.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>La secretaría certificada</b>La secretaría de educación del departamento o del municipio certificado asigna la plaza.</div>
+      </div>
+      <div class="row">
+        <h3>Cómo se entra</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>Se aplica a la vacante</b>El filtro fuerte está al entrar a la universidad, no al buscar empleo.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Concurso de méritos</b>Lo hace la CNSC cada varios años; mientras tanto se nombran provisionales. El concurso 2026 ofrece más de 26.000 vacantes.</div>
+      </div>
+      <div class="row">
+        <h3>Cómo se controla la calidad</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>Confianza</b>Sin inspectores y sin prueba nacional obligatoria hasta el examen final del bachillerato.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Pruebas y evaluación</b>Pruebas Saber para los alumnos y, con el Decreto 1278 de 2002, evaluación de competencias para que el profesor ascienda.</div>
+      </div>
+      <div class="row">
+        <h3>Cómo mejora enseñando</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>Tiempo para planear juntos</b>Unas 3 horas semanales dentro de la jornada, en todos los colegios.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Tutores del programa del Ministerio</b>El programa de tutorías PTA/FI 3.0 tiene 6.277 tutores en 2026 que acompañan a colegios focalizados. No llega a todos.</div>
+      </div>
+      <div class="row">
+        <h3>Niño que se atrasa</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>Apoyo temprano en el colegio</b>Profesor de educación especial y máximo 5 alumnos con apoyo por grupo.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Educación inclusiva</b>El Decreto 1421 de 2017 ordena planes de ajustes para alumnos con discapacidad, pero los docentes de apoyo no alcanzan para todos los colegios.</div>
+      </div>
+      <div class="row">
+        <h3>Quién paga</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>El municipio, con ayuda del Estado</b>El sueldo sale de una convención colectiva nacional con el sindicato docente.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>La nación, casi todo</b>Llega a las regiones por el Sistema General de Participaciones (SGP).</div>
+      </div>
+      <div class="row">
+        <h3>Escuela rural</h3>
+        <div class="cell jp"><span class="who">Finlandia</span><b>Colegios que se fusionan</b>Hay menos niños y los municipios se unen para sostener las escuelas.</div>
+        <div class="cell co"><span class="who">Colombia</span><b>Escuela Nueva</b>Modelo colombiano en el que un profesor atiende varios grados a la vez. Otros países lo han copiado.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="adoptar" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Lo que un colegio colombiano puede copiar desde ya</h2>
+    <p class="lede">La maestría obligatoria no se cambia de un día para otro, pero hay costumbres finlandesas que no cuestan plata.</p>
+    <div class="adopt">
+      <div><h3>Un proyecto por fenómeno al año</h3><p>Escoger un tema del territorio, como el río Cauca, la minería o el agua, y trabajarlo entre ciencias, sociales, lenguaje y matemáticas.</p></div>
+      <div><h3>Una hora fija para planear juntos</h3><p>Que el rector proteja un espacio semanal en el horario para que los profesores preparen clases en equipo.</p></div>
+      <div><h3>Detectar temprano al que se atrasa</h3><p>Revisar cada mes, entre profesores del grado, qué niños se están quedando y apoyarlos antes de que pierdan el año.</p></div>
+      <div><h3>Más confianza, menos formato</h3><p>Reducir papeleo repetido y darle al profesor libertad para escoger cómo enseñar, pidiéndole cuentas por lo que aprenden los niños.</p></div>
+    </div>
+    <p class="verdict">Finlandia nos enseña que al buen profesor se le forma bien y después se le confía. Colombia puede empezar por darles tiempo para pensar juntos.</p>
+  </div>
+</section>
+
+<section id="preguntas" style="padding-top:8px">
+  <div class="wrap">
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Es verdad que en Finlandia no hay tareas ni exámenes?</summary><p>No del todo. Sí hay tareas y evaluaciones, pero las pone cada profesor. Lo que no hay es una prueba nacional obligatoria cada año; la única gran prueba es el examen de fin de bachillerato.</p></details>
+    <details><summary>¿Los profesores finlandeses ganan mucho?</summary><p>Ganan un sueldo de clase media, parecido al promedio de los países ricos, fijado por convención colectiva y que sube con los años. Lo que los distingue es el respeto social y la libertad de trabajo, más que el dinero.</p></details>
+    <details><summary>¿Por qué les va peor en PISA que antes?</summary><p>No hay una sola causa. Se habla de menos lectura entre los jóvenes, uso excesivo del celular, más diversidad de necesidades en los salones y recortes en los municipios. Por eso las reformas de 2025 apuntan a lectura, matemáticas y apoyo temprano.</p></details>
+    <details><summary>¿Se puede hacer aprendizaje por fenómenos en un colegio del Bajo Cauca?</summary><p>Sí. Basta con que profesores de dos o tres materias escojan un tema de la región y lo trabajen al mismo tiempo durante unas semanas, cerrando con una muestra para los padres.</p></details>
+    <details><summary>¿De dónde sale esta información?</summary><p>De la Agencia Nacional de Educación de Finlandia, la red europea Eurydice, la radiotelevisión pública Yle sobre las reformas de 2025, del Ministerio de Educación Nacional de Colombia sobre el programa de tutorías 2026 y de la CNSC sobre el concurso docente 2026.</p></details>
+  </div>
+</section>
+
+<section id="compartir" style="padding-top:8px">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <h2>Compártala con un profesor</h2>
+        <p>Si conoce un rector, un docente o un padre de familia al que le sirva, mándele esta página. Y si su colegio necesita una app para organizar su trabajo, en Vibras Positivas HM se la hacemos.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-wa" id="share" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+          Compartir por WhatsApp
+        </a>
+        <a class="btn btn-line" data-wa="Hola Harold, vi la página de los profesores en Finlandia y quiero una app para mi colegio." href="#" target="_blank" rel="noopener">Pedir una app para mi colegio</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Información revisada al 25 de septiembre de 2026 (hora de Colombia). Los datos de Finlandia corresponden a la educación básica pública (grados 1 a 9). Los datos de Colombia pueden cambiar con las nuevas reglas del concurso docente y del Ministerio.</p>
+    <p>Página hecha por Vibras Positivas HM · Caucasia, Antioquia.</p>
+  </div>
+</footer>
+
+<div class="stick">
+  <div class="p">Finlandia vs. Colombia<small>Profesores y confianza</small></div>
+  <a class="btn btn-wa" id="share2" href="#" target="_blank" rel="noopener">Compartir</a>
+</div>
+
+<script>
+(function(){
+  var PHONE='573117700431';
+  function wa(t){return 'https://wa.me/'+PHONE+'?text='+encodeURIComponent(t);}
+  document.querySelectorAll('[data-wa]').forEach(function(a){a.href=wa(a.getAttribute('data-wa'));});
+  var url=location.href.split('#')[0];
+  var msg='Mire cómo trabajan los profesores en Finlandia y cómo nos comparamos en Colombia: '+url;
+  ['share','share2'].forEach(function(id){
+    var a=document.getElementById(id);
+    a.href='https://wa.me/?text='+encodeURIComponent(msg);
+    a.addEventListener('click',function(e){
+      if(navigator.share && id==='share2'){e.preventDefault();navigator.share({title:document.title,text:'Así trabajan los profesores en Finlandia',url:url}).catch(function(){});}
+    });
+  });
+
+  var steps=[
+    {t:'Escoger el fenómeno',p:'Los profesores de varias materias escogen un tema de la vida real que se pueda mirar desde muchos lados: el agua, el clima, la comida, el trabajo, la migración o la historia del pueblo.',tip:'El tema no es de una materia. Es un problema del mundo que atraviesa varias.'},
+    {t:'Preguntas de los alumnos',p:'Los estudiantes dicen qué quieren saber del tema. Con esas preguntas, los profesores acuerdan qué va a aportar cada materia y cuántas semanas va a durar.',tip:'La curiosidad de los niños manda el recorrido, y el profesor cuida que se cumplan los objetivos del currículo.'},
+    {t:'Investigar entre materias',p:'Durante varias semanas, matemáticas mide, ciencias experimenta, sociales pregunta en la comunidad y lenguaje escribe. Muchas veces dos profesores entran juntos al salón.',tip:'Aquí se usan las horas semanales de planeación en equipo que tienen los profesores finlandeses.'},
+    {t:'Mostrar y evaluar',p:'Los grupos presentan lo que encontraron a compañeros, padres o vecinos. Los alumnos se evalúan a sí mismos y entre ellos, y el profesor les da su propia valoración.',tip:'Se evalúa lo que aprendieron y también cómo trabajaron en grupo.'}
+  ];
+  var nodes=[].slice.call(document.querySelectorAll('.node'));
+  var panel=document.getElementById('panel');
+  var cur=0;
+  function show(i){
+    cur=(i+steps.length)%steps.length;
+    var s=steps[cur];
+    panel.innerHTML='<h3>'+s.t+'</h3><p>'+s.p+'</p><p class="tip">'+s.tip+'</p>';
+    nodes.forEach(function(n,k){n.setAttribute('aria-pressed',k===cur?'true':'false');});
+    document.getElementById('prev').disabled=false;
+    document.getElementById('next').textContent=cur===steps.length-1?'Volver al paso 1':'Siguiente paso';
+  }
+  nodes.forEach(function(n){n.addEventListener('click',function(){show(+n.getAttribute('data-i'));});});
+  document.getElementById('prev').addEventListener('click',function(){show(cur-1);});
+  document.getElementById('next').addEventListener('click',function(){show(cur+1);});
+  show(0);
+})();
+</script>
+</body>
+</html>
